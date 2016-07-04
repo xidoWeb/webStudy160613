@@ -96,6 +96,11 @@ ___
 - <https://cyberduck.io> : ftp프로그램
 - <https://nodejs.org/ko> : node.js
 - <http://brackets.io> : 에디트프로그램
+	- emmet
+	- markdown toolbar
+	- markdown preview	
+	- custom work
+	- hide work file
 - <https://www.sublimetext.com> - ( 차후 사용할 에디트프로그램 )
 
 ### CLI(Command Line) 이해하기
@@ -103,8 +108,8 @@ ___
 `mac`: terminal 실행    
 `window`: gitbash 실행(mac과 가장 유사한 기능을 실행하기 위함)  
 
-- **폴더이동:**  cd .. | cd ~ | cd /
-- **목록보기:** li
+- **폴더이동:** cd .. | cd ~ | cd /
+- **목록보기:** ls
 - **폴더생성:** mkdir *폴더명*
 - **파일생성:** touch *파일명*
 - **파일/폴더삭제:** rm -rf *파일/폴더명*
