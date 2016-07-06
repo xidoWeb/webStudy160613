@@ -5,71 +5,76 @@
   <meta charset="UTF-8" />
   <title>list</title>
   <style>
-    img{width:50px; height:auto;}
-    div{width: 500px; height: 300px; background-color: #acc;}
+    img{width:50px; height:auto; }
+    div{border: 1px solid #0a6; }
+    span{color:#0af;}
   </style>
 </head>
 <body>
-  <h1>리스트</h1>
-  <h2>순서가 있는 리스트 &lt;ol&gt;</h2>
-  <ol>
-    <li>순서가 있는 리스트 목록_1</li>
-    <li>순서가 있는 리스트 목록_2</li>
-    <li>순서가 있는 리스트 목록_3</li>
-    <li>순서가 있는 리스트 목록_4
-      <ol>
-        <li>리스트 추가 담기_1</li>
-        <li>리스트 추가 담기_2</li>
-        <li>리스트 추가 담기_3</li>
-      </ol>
-    </li>
-    <li>순서가 있는 리스트 목록_5</li>
-    <li>순서가 있는 리스트 목록_6
-      <ul>
-        <li title="간단한 말풍선1">다른 형태의 리스트_1</li>
-        <li title="간단한 말풍선2">다른 형태의 리스트_2</li>
-        <li>다른 형태의 리스트_3</li>
-        <li>다른 형태의 리스트_4</li>
-      </ul>
-    </li>
-    <li>
-      <a href="http://daum.net" target="_blank" title="간단한 말풍선3">
-        순서가 있는 리스트 목록_7
-      </a>
-    </li>
-  </ol>
-  <hr />
-  <h2 title="간단한 말풍선4">순서가 없는 리스트 &lt;ul&gt;</h2>
-  <ul>
-    <li>순서가 없는 리스트_1</li>
-    <li>순서가 없는 리스트_2</li>
-    <li>순서가 없는 리스트_3</li>
-    <li>순서가 없는 리스트_4</li>
-    <li>순서가 없는 리스트_5</li>
-    <li>순서가 없는 리스트_6</li>
-    <li>순서가 없는 리스트_7</li>
-  </ul>
-  <hr />
-  <h2>제목, 내용이 있는 리스트 &lt;dl&gt;</h2>
-  <dl>
-    <dt>리스트 제목</dt>
-    <dd>리스트 내용</dd>
-    <dd>리스트 내용</dd>
-    <dd>리스트 내용</dd>
-    <dd>리스트 내용</dd>
-    
-    <dt>리스트 제목2</dt>
-    <dd>리스트 내용2</dd>
-    <dd>리스트 내용2</dd>
-    <dd>리스트 내용2</dd>
-  </dl>
- <hr>
-  <h2>이미지 가져오기</h2>
   <div>
-    <img src="./img/i_1.png" alt="타올라라 불꽃" />
-    <img src="./img/i_2.png" alt="어두운 그림자 해골" />
-    <img src="./img/i_3.png" alt="내 마음을 체크" />
-  </div>  
+    <h1>리스트</h1>
+    <div>
+    <h2>순서가 있는 리스트 &lt;ol&gt;</h2>
+    <ol>
+      <li>순서가 있는 리스트 목록_1</li>
+      <li>순서가 있는 리스트 목록_2</li>
+      <li>순서가 있는 리스트 목록_3</li>
+      <li>순서가 있는 리스트 목록_4
+        <ol>
+          <li>리스트 추가 담기_1</li>
+          <li>리스트 추가 담기_2</li>
+          <li>리스트 추가 담기_3</li>
+        </ol>
+      </li>
+      <li>순서가 있는 리스트 목록_5</li>
+      <li>순서가 있는 리스트 목록_6
+        <ul>
+          <li title="간단한 말풍선1">다른 형태의 리스트_1</li>
+          <li title="간단한 말풍선2">다른 형태의 리스트_2</li>
+          <li>다른 형태의 리스트_3</li>
+          <li>다른 형태의 리스트_4</li>
+        </ul>
+      </li>
+      <li>
+        <a href="http://daum.net" target="_blank" title="간단한 말풍선3">
+          순서가 있는 리스트 목록_7
+        </a>
+      </li>
+    </ol>
+    <hr />
+    </div><!-- 첫번째 리스트 -->
+    <h2 title="간단한 말풍선4">순서가 없는 리스트 &lt;ul&gt;</h2>
+    <ul>
+      <li>순서가 없는 <span>리스트_1</span></li>
+      <li>순서가 없는 리스트_2</li>
+      <li>순서가 없는 리스트_3</li>
+      <li>순서가 없는 리스트_4</li>
+      <li>순서가 없는 리스트_5</li>
+      <li>순서가 없는 리스트_6</li>
+      <li>순서가 없는 리스트_7</li>
+    </ul>
+    <hr />
+    <h2><span>제목,</span> 내용이 있는 리스트 &lt;dl&gt;</h2>
+    <dl>
+      <dt>리스트 제목</dt>
+      <dd>리스트 내용</dd>
+      <dd>리스트 내용</dd>
+      <dd>리스트 내용</dd>
+      <dd>리스트 내용</dd>
+
+      <dt>리스트 제목2</dt>
+      <dd>리스트 내용2</dd>
+      <dd>리스트 내용2</dd>
+      <dd>리스트 내용2</dd>
+    </dl>
+   <hr>
+    <h2>이미지 가져오기</h2>
+    <div>
+      <img src="./img/i_1.png" alt="타올라라 불꽃" />
+      <img src="./img/i_2.png" alt="어두운 그림자 해골" />
+      <img src="./img/i_3.png" alt="내 마음을 체크" />
+    </div>  <!--// 이미지 감싸기 -->
+  </div> <!--// 전체 영역-->
 <!--  -------------------------------------  -->
   <script></script>
 </body>
