@@ -9,25 +9,25 @@
 - **쿠팡기준 이름값 사용시** → 폴더, 파일, 문서내에서의 이름 :단어/ 형용사로 표기 할 것을 권장.
 ## web 기본 구조(*.html 로 저장, 최초의 인식은 index.html)
 ```html
-<!DOCTYPE html>  							// html5 형식의 웹표준 선언
-	<html lang="ko-KR">  					// html시작, 한국어의 주사용
-	<head>  									//head 영역
+<!DOCTYPE html>  												// html5 형식의 웹표준 선언
+	<html lang="ko-KR">  										// html시작, 한국어의 주사용
+	<head>  														//head 영역
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />  //설치된 컴퓨터에서의 IE최신버전 사용
-		<meta charset="UTF-8">  			// 사용언어 공용어
-		<title>title</title>  				// 웹페이지의 탭메뉴 표기 제목/웹 페이지 제목
-		<style> 								// css영역(추후 외부 문서로 링크)
-			/*  */    						// css에서의 주석
-		</style>  							// css닫기
-	</head>  									//head영역 닫기
-	<body>  									//html 본문(웹페이지에 나타나는 형태)
+		<meta charset="UTF-8">  								// 사용언어 공용어
+		<title>title</title>  									// 웹페이지의 탭메뉴 표기 제목/웹 페이지 제목
+		<style> 													// css영역(추후 외부 문서로 링크)
+			/*  */    											// css에서의 주석
+		</style>  												// css닫기
+	</head>  														//head영역 닫기
+	<body>  													//html 본문(웹페이지에 나타나는 형태)
 	
-		<!--  -->   							// html문서의 주석(css/js에서 사용할 수 없음
-		<script>								// javascript 내용작성(head에서도 사용가능)
-			//									// javascript문서에서의 한줄 주석
-			/*  */								// javascript문서 에서의 여러줄 주석
-		</script> 							// javascript 닫기
-	</body>  									// body닫기
-	</html>									//html 문서 종료  
+		<!--  -->   											// html문서의 주석(css/js에서 사용할 수 없음
+		<script>												// javascript 내용작성(head에서도 사용가능)
+			//													// javascript문서에서의 한줄 주석
+			/*  */												// javascript문서 에서의 여러줄 주석
+		</script> 												// javascript 닫기
+	</body>  													// body닫기
+	</html>														//html 문서 종료  
 ```
 ___
 ## body 영역 기본 
