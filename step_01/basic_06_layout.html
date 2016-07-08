@@ -19,9 +19,10 @@
     #section{height: auto; background-color:#fa3; 
       border-bottom:5px solid #ac2;}
     #section:after{}
-      #aside{width:33%; height:300px; background-color:#afc; float: left;}
-      #article{width:34%; height:300px; background-color:#05f; float: left;}  
-      #container{width:33%; height:300px; background-color:#4af; float: left;}
+      #article{width:67%; height:150px; background-color:#05f; float: left;}  
+      #container{width:67%; height:150px; background-color:#4af; float: left;}
+      #aside{width:33%; height:300px; background-color:#afc; float: right;
+      margin-top:-150px;}
     /* // #section ------------------------------*/
     
     /*  #footer ------------------------------*/
@@ -29,20 +30,20 @@
     
     /* //  #footer ------------------------------*/
     
-    
+    *:focus{background-color: #f3f; color:#fff; }
     .clearfix{display: block; clear: both;}
   </style>
 </head>
 <body>
   <div id="box">
-    <div id="header">header</div><!--// #header-->
+    <div id="header"><a href="#">header</a></div><!--// #header-->
     <div id="section">
-      <div id="aside">aside</div><!--// #aside-->
-      <div id="article">article</div><!--// #article-->
-      <div id="container">container</div><!--// #container-->
+      <div id="article"><a href="#">article</a></div><!--// #article-->
+      <div id="container"><a href="#">container</a></div><!--// #container-->
+      <div id="aside"><a href="#">aside</a></div><!--// #aside-->
       <br class="clearfix" />
     </div><!--// #section-->
-    <div id="footer"></div><!--// #footer-->
+    <div id="footer"><a href="#">footer</a></div><!--// #footer-->
   </div><!--// #box-->
   
 </body>
