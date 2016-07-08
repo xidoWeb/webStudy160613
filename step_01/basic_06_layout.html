@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    *{margin: 0; padding: 0;}
+    #box{width:600px; height:500px; background-color:#9F5; margin:0 auto;}
+   
+    #box>div{width: 100%;}
+    /* #header ------------------------------*/
+    #header{height: 100px;background-color:#f0a;}
+    #header:hover{background-color: #aca;}
+    
+    /* // #header ------------------------------*/
+    
+    /* #section ------------------------------*/
+    #section{height: auto; background-color:#fa3; 
+      border-bottom:5px solid #ac2;}
+    #section:after{}
+      #aside{width:33%; height:300px; background-color:#afc; float: left;}
+      #article{width:34%; height:300px; background-color:#05f; float: left;}  
+      #container{width:33%; height:300px; background-color:#4af; float: left;}
+    /* // #section ------------------------------*/
+    
+    /*  #footer ------------------------------*/
+    #footer{height: 100px; background-color:#0cf;}
+    
+    /* //  #footer ------------------------------*/
+    
+    
+    .clearfix{display: block; clear: both;}
+  </style>
+</head>
+<body>
+  <div id="box">
+    <div id="header">header</div><!--// #header-->
+    <div id="section">
+      <div id="aside">aside</div><!--// #aside-->
+      <div id="article">article</div><!--// #article-->
+      <div id="container">container</div><!--// #container-->
+      <br class="clearfix" />
+    </div><!--// #section-->
+    <div id="footer"></div><!--// #footer-->
+  </div><!--// #box-->
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
