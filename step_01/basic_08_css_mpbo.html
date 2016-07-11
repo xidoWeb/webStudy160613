@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- basic_08_css_mpbo.html -->
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <style>
+    *{margin: 0; padding: 0;}
+    .clearfix{clear: both;}
+    
+    
+    h1{width: 700px; margin: 0 auto; font-size: 1.4rem; color:#333;}
+    .container{width: 700px; height: 500px; margin: 0 auto; 
+      background-color: #ccc;}
+    .container>div{width: 100px; height: 100px; float: left;}
+    #margin{background-color:#1af; margin:50px;}
+    #padding{background-color:#fa1; padding:50px;}
+    #border{background-color:#af1;
+/*  border-width:50px; border-style:solid; border-color:#386; */
+    border:50px solid #386;
+    }
+    #outline{background-color:#f1a;
+    outline:50px solid #308;
+    }
+    
+  #margin_1{background-color:#1cf; margin:10px;}/*위,아래, 좌, 우*/
+  #margin_2{background-color:#38c; margin:10px 30px;}/*위/아래, 좌/우*/
+  #margin_3{background-color:#5ca; margin:10px 30px 50px;}/*위,좌/우,아래 */
+  #margin_4{background-color:#789; 
+    margin:10px 20px 30px 40px;}/* 시계방향 */
+  #margin_5{background-color:#9c7; 
+    margin-top:10px; margin-right:2px; 
+    margin-bottom: 30px; margin-left:40px;}
+    
+  #margin_6{background-color:#a85;
+    margin:10px; margin-left: 20px;}
+    
+  #padding_7{background-color:#cc3; 
+    padding: 20px; padding-right: 5px; margin-right: 10px;}
+  #padding_8{background-color:#f81;
+    padding-left: 20px; margin-left: 20px; border-left:20px solid #888;
+    outline:20px solid #fff; transition:all 1s;}
+  #padding_8:hover{outline-color:#acd; border-width:5px;}  
+  #padding_8:active{outline-color:#a1d; border-width:30px;}  
+    
+  </style>
+</head>
+<body>
+  <h1>margin, padding, border, outline</h1><hr />
+  <h2>mpbo 기본이해</h2>
+  <div class="container">
+    <div id="margin">margin</div><!--// #margin-->
+    <div id="padding">padding</div><!--// #padding-->
+    <div id="border">border</div><!--// #border-->
+    <div id="outline">outline</div><!--// #outline-->
+  </div><!--// .container-->
+  <hr />
+  <h2>margin/padding 부분 변화처리</h2>
+  <div class="container">
+    <div id="margin_1">margin_1</div>
+    <div id="margin_2">margin_2</div>
+    <div id="margin_3">margin_3</div>
+    <div id="margin_4">margin_4</div>
+    <br class="clearfix"/>
+    <div id="margin_5">margin_5</div>
+    <div id="margin_6">margin_6</div>
+    <div id="padding_7">padding_7</div>
+    <div id="padding_8">padding_8</div>
+  </div>  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

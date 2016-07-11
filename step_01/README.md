@@ -170,23 +170,106 @@ ___
 
 
 ### <a name="select">1. 선택자</a>
+> body 내부에 존재하는 tag, id, class 형태들을 선택해서 사용할 수 있게 만드는 것
+
+1. **type** tag(요소)를 선택 (h1, p, div)
+2. **자손**  `요소 요소` 형태로 사용 태그/id/class 이름간의 띄어쓰기로 구분, 자식을 포함한 그 후손형태의 요소를 선택( ul a {})
+```html
+<style>
+  ul a{}  /* ul태그 후손태그 중 a태그를 선택 */
+</style>
+<body>
+  <div class="box">
+    <ul>
+      <li><a href="">list_01</a></li>
+      <li><a href="">list_02</a></li>
+    </ul>
+    <ol>
+      <li>
+        <ul>
+          <li> <a href="">list2</a></li>
+        </ul>     
+    </ol>
+  </div>
+</body>
+```
+3. **자식** 자손선택자의 경우는 후손에 관련된건 모두 선택/ 자식만을 선택할 때에는 자식선택자를 사용한 이는 `태그(요소) > 태그(요소)` 사용
+(ol li>ul a{})
+4. **id** body에서 id값을 가진것은 css에서는 #의 형태로 보여주며, 이를 선택할때에는
+```html
+<style>
+  #test1{} /* id 값이 test1인 요소를 찾아라 */
+</style>
+<body>
+  <p id="test1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti itaque natus molestiae quisquam ipsa modi, earum ex quo cupiditate accusamus quos nemo labore suscipit est eos nesciunt voluptatum. Ab, sit.</p>
+   <p id="test2" class="class_test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti itaque natus molestiae quisquam ipsa modi, earum ex quo cupiditate accusamus quos nemo labore suscipit est eos nesciunt voluptatum. Ab, sit.</p>
+</body>
+```
+5.**class** body에서 class값을 가진것은 css에서는 .의 형태로 보여주며, 이를 선택할때에는 
+```css
+<style>
+  .class_test{}
+</style>
+```
 
 ### <a name="size">2. 크기값</a>
+> 크기값을 가지는 형태에게 사이즈를 주는 방법(width, height), 
+
+px(하나의 점/ mm와 상대개념),
+pt(인쇄시 9pt/ 웹 12pt), 
+%(자신의 부모태그와 기준으로 설정되는 상대), 
+em(반응형웹이 나오면서 설정된 단위), 
+rem(em단위의 문제점을 해결하기 위해 나온 단위)
+<!-- vh, vw, vmin, vmax -->
+- 16px  = 12pt = 100% = 1em = 1rem (최초의 설정시)
 
 ### <a name="background">3. 배경</a>
+> 배경과 관련된 모든것을 설정
+
+1. background-color
+1. background-image
+1. background-repeat
+1. background-position
+1. background-attachment
+1. background-size
 
 ### <a name="fonts">4. 폰트</a>
+1. font-size
+1. font-family
+1. font-weight
+1. font-style
+1. line-height
+1. color
+1. text-aligh
+1. text-indent
 
 ### <a name="float">5. float</a>
+> block 태그의 형태를 옆으로 나열/ 바닥에 붙어있지 않고 떠있는 문제
+> clear:both 
+
+1. float:left; 
+2. float:right;
+3. clear:both;
 
 ### <a name="margin">6. margin</a>
+> 각 태그(요소) 간의 공간(간격)을 만들어 주는것
+
+1. margin:0 auto; - 공간을 위/아래는 없애고, 좌/우는 중간으로 배치(float기능과 같이 사용x)
 
 ### <a name="padding">7. padding</a>
+> 각 태그(요소) 간의 공간(간격)을 만들어 주는것(자신의 형태가 커진듯한 효과)
 
 ### <a name="border">8. border</a>
+> 외곽선(크기 o, 부피 o)
 
 ### <a name="outline">9. outline</a>
+> 외곽선(크기 o, 부피 x)
 
 ### <a name="position">10. position</a>
 
 ___
+
+
+
+
+
