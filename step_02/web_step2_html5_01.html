@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8" />
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+  <title>Document</title>
+  <style>
+  /* reset CSS */
+  /* emmet.io */
+    *{margin: 0; padding: 0;}
+    header, aside, article, section, footer, nav{display: block;}
+    
+    /* design */
+    .container{width: 960px; height:auto; margin:0 auto;}
+    .container>*{width: 100%;}
+    #headBox{height: 150px; background-color: #afc;}
+      #gnb{width:800px; height:50px; background-color:#faa;}
+    
+    #mainSide{height: 100px; background-color: #acc; margin-top: 10px;}
+    #content{height: 400px; background-color: #daa;}
+    #conBox{height: 150px; background-color: #ccc;}
+    #footBox{height: 100px; background-color: #dad;}
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header id="headBox">
+      <h1 id="headH1">mainLogo</h1>
+      
+      <nav id="gnb">
+        <h2>네비게이션(메뉴)</h2>
+      </nav>
+    </header>
+    <aside id="mainSide">
+      <h2>꼭 필요하지 않은영역- 있으면 아주 좋은 부분</h2>
+    </aside>
+    <article id="content">
+      <h2>본문, 재사용이 가능한 영역</h2>
+      <header id="subHead_1">
+        <h1 id="subH1">보조 메인의 로고</h1>
+      </header>
+      <article id="subCon_1">
+        <h2>sub_con</h2>
+      </article>
+      <footer id="subFoot_1">
+        <h2>sub_foot</h2>
+      </footer>
+    </article><!--// #content-->
+    <section id="conBox">
+      <h2>본문, 재사용이 불가능</h2>
+    </section>
+    <footer id="footBox">
+      <h2>subLogo</h2>
+    </footer>
+  </div>
+
+  <script></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
