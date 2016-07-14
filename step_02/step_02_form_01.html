@@ -21,14 +21,14 @@
 <body>
   <h1>form</h1>
   <form action="" method="post">
-    <fieldset>
+    <fieldset><!--입력-->
       <legend>입력</legend>
       <label for="user">
         <span class="hidden">접속하실</span>
         아이디
         <span class="hidden">를 입력 하세요.</span>
       </label>
-      <input type="text" name="user" id="user" value="" />
+      <input type="text" name="user" id="user" value="" maxlength="5" />
       
       <label for="pwd">
         <span class="hidden">아이디의</span>
@@ -37,24 +37,24 @@
       </label>
       <input type="password" name="pwd" id="pwd" value="" />
       
-    </fieldset>
+    </fieldset><!--입력-->
      <fieldset>
       <legend>선택</legend>
        <p>당신의 성별을 선택하세요.</p>
-       <input type="radio" name="sex" id="male" value="male" />
+       <input type="radio" name="sex" checked="checked" id="male" value="male" />
        <label for="male">남자입니다.</label>
         <input type="radio" name="sex" id="female" value="female" />
        <label for="female">여자입니다.</label><hr />
       <p>좋아하는 성별을 고르세요. </p>
       <input type="checkbox" name="select_sex" id="man" value="like man" />
        <label for="man">남성을 좋아합니다.</label>
-      <input type="checkbox" name="select_sex" id="woman" value="like woman" />
+      <input type="checkbox" name="select_sex" checked="checked" id="woman" value="like woman" />
        <label for="woman">여성을 좋아합니다.</label>
        
        <!--권장하지 않는 방식-->
        <label><input type="checkbox" name="select_sex" value="like woman" />
         좋아하지 않습니다.</label>
-    </fieldset>
+    </fieldset><!--선택-->
      <fieldset>
       <legend>버튼</legend>
       <!-- 확인(submit), 취소(reset), 이미지(image, src), 파일(file), 버튼(button) -->
@@ -72,9 +72,36 @@
        
       <input type="button" name="btn" id="btn" value="지도 검색" />
       <label for="btn">버튼</label>
-    </fieldset>
+    </fieldset><!--버튼-->
      <fieldset>
       <legend>멀티</legend>
+       <label for="multi_text">대화창</label>
+       <textarea name="multi_text" id="multi_text" cols="30" rows="10" readonly="readonly">
+여러줄 작성 할 수 있는 형태의 입력창
+반드시, 이곳에 계약서형태는 사용하지 말것!
+혹여나 사용했다면, 속성으로 readonly 입력해서 수정이 불가능 하도록 처리 할 것!
+       </textarea>
+       <label for="multi_select">전화번호</label>
+       <select name="multi_select" id="multi_select">
+         <option>선택하세요</option>
+         <optgroup label="번호 확인1">
+           <option value="010">010</option>
+           <option value="011">011</option>
+           <option value="012">012</option><!--bb-->
+           <option value="013">013</option><!--powtel-->
+           <option value="014">014</option><!--손말핸드폰-->
+         </optgroup>
+        <optgroup label="번호 확인2"> 
+          <option value="015">015</option>
+          <option value="016">016</option>
+          <option value="017">017</option>
+          <option value="018">018</option>
+          <option value="019">019</option>
+          <option value="0505">0505</option><!--평생번호-->
+         </optgroup>
+       </select>
+       <button type="button" name="">취소 </button>
+       
     </fieldset>
   </form>
 </body>
