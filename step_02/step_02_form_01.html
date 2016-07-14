@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- step_02_form_01.html -->
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8" />
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+  <title>Document</title>
+  <style>
+    *{margin: 0; padding: 0;}
+    form{width: 700px; height: 1000px; margin: 0 auto; border: 1px solid #777;}
+    fieldset{width: 100%; height: auto; background-color: #f5f5f5;}
+    .hidden{width: 0; height: 0; overflow: hidden; display: block;}
+    input:focus{outline:2px solid #fa0; outline-offset:3px;}
+    input[type="submit"]{padding: 10px; background-color: #acc; cursor:pointer;}
+    input[type="reset"]{padding:5px; background-color: #faa; border: 0; cursor:pointer;}
+    input[type="image"]{width: 50px; height: auto; cursor:pointer;}
+  </style>
+</head>
+<body>
+  <h1>form</h1>
+  <form action="" method="post">
+    <fieldset>
+      <legend>입력</legend>
+      <label for="user">
+        <span class="hidden">접속하실</span>
+        아이디
+        <span class="hidden">를 입력 하세요.</span>
+      </label>
+      <input type="text" name="user" id="user" value="" />
+      
+      <label for="pwd">
+        <span class="hidden">아이디의</span>
+        비밀번호
+        <span class="hidden">를 입력하세요.</span>
+      </label>
+      <input type="password" name="pwd" id="pwd" value="" />
+      
+    </fieldset>
+     <fieldset>
+      <legend>선택</legend>
+       <p>당신의 성별을 선택하세요.</p>
+       <input type="radio" name="sex" id="male" value="male" />
+       <label for="male">남자입니다.</label>
+        <input type="radio" name="sex" id="female" value="female" />
+       <label for="female">여자입니다.</label><hr />
+      <p>좋아하는 성별을 고르세요. </p>
+      <input type="checkbox" name="select_sex" id="man" value="like man" />
+       <label for="man">남성을 좋아합니다.</label>
+      <input type="checkbox" name="select_sex" id="woman" value="like woman" />
+       <label for="woman">여성을 좋아합니다.</label>
+       
+       <!--권장하지 않는 방식-->
+       <label><input type="checkbox" name="select_sex" value="like woman" />
+        좋아하지 않습니다.</label>
+    </fieldset>
+     <fieldset>
+      <legend>버튼</legend>
+      <!-- 확인(submit), 취소(reset), 이미지(image, src), 파일(file), 버튼(button) -->
+      <input type="submit" name="ok" id="ok" value="확인 및 전송" />
+      <label for="ok">확인</label>
+       
+      <input type="reset" name="cancle" id="cancle" value="작성 취소" />
+      <label for="cancle">취소</label>
+       
+      <input type="image" src="./img/i_1.png" name="images" id="images" value="확인 및 전송" />
+      <label for="images">이미지버튼</label>
+       
+      <input type="file" name="data" id="data" value="" />
+      <label for="data">자료전송</label>
+       
+      <input type="button" name="btn" id="btn" value="지도 검색" />
+      <label for="btn">버튼</label>
+    </fieldset>
+     <fieldset>
+      <legend>멀티</legend>
+    </fieldset>
+  </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
