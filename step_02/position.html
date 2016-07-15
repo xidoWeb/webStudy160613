@@ -12,7 +12,7 @@
 		a{text-decoration: none; color:#777;}
 		a:hover{text-decoration:underline; color:#0ac;}
 		header, article, aside, nav, footer, section, hgroup, main{display: block;}
-	
+	*:focus{outline: 2px solid  #0f0; outline-offset: 3px}
 	/* design */
 	body{height: 3000px;}
 	.container{width: 70vw; min-width:600px; margin: 0 auto; padding: 1rem; background-color: #ccc; box-sizing:border-box; margin-top: 200px;}
@@ -33,16 +33,31 @@
 	한번 잘못사용하면, 모든 웹페이지가 틀어지며, 하나의 수정으로인해, 추후 다른 모~든것을 새로 수정해야하는 불편함이 있다.
 */
 
-/* 배너 가운데 배치하기 */
-.add_banner{width: 20em;/* (16*20) px */ height: auto; padding: 1em; background-color: #fac;}
+/* 배너 가운데 배치하기(위치 조정) */
+.add_banner{width: 20em;/* (16*20) px */ height:10em; padding: 1em; background-color: #fac;}
 .add_banner>button{width: 4em;/* 32px */ height: 2em;/* 16px */ border: 0; cursor: pointer;
 	background-color:#333; color:#fff; font-weight: bold; float: right;}
 .add_banner>h2{color:#dfdfdf;}	
+
+.add_banner{position:fixed; top:50%; left:50%; z-index:1000; margin-top:-5em; margin-left:-10em;}
+
+/* 사이드배너 위치하기 (기본 화면 960px 기준일 경우 )*/
+	.side_banner{width: 8em; height: 30em; background-color: #0af; 
+		padding: 0.5em; box-sizing:border-box;
+		position: fixed; left:50%; top: 5em; margin-left:36vw; z-index: 500;}
+	.side_banner>h2{color:#fff;}
+
 
 	</style>
 	<script></script>
 </head>
 <body>
+	<div class="add_banner">
+		<button type="button">닫기</button>
+		<h2>광고 배너</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel, ipsam atque sed cum distinctio!</p>
+	</div>
+
 	<div class="container">
 		<h1>position기본 이해</h1>
 		<ul>
@@ -53,13 +68,10 @@
 			<li class="absolute">absolute</li>
 			<li class="base">base</li>
 		</ul>
-
-		<div class="add_banner">
-			<button type="button">닫기</button>
-			<h2>광고 배너</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel, ipsam atque sed cum distinctio!</p>
-		</div>
 	</div>
 
+	<div class="side_banner">
+		<h2>side <br /> banner</h2>
+	</div>
 </body>
 </html>
