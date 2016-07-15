@@ -104,7 +104,16 @@
 8. **table 기능**
   - border-spacing: 선과 선 사이의 간격(table의 경우에는 tr,td, th 등 서로간의 간격이 떨어져 있기 때문에 둘을 붙이는 역할 값은 0)
   - border-collapse: 선과 선 사이를 완전하게 붙이는 역할(값 collapse)
-  
+9. **position 기능**
+  - position: static | fixed | ralative | absolute  
+    + static: 기본상태
+    + fixed: 브라우저 화면에 고정
+    + relative: 엄마(absolute의 기준/ 단, fixed or absolute도 기준이 될 수 있다.)
+    + absolute: relative를 기준으로 위치를 이동하고 설정하는 형태
+  - top, right, bottom, left: 일종의 margin과 같이 공간을 만드는 기능, margin은 공간을 주는것, top, right... 떨어지는것.(position만 사용이 가능(staic제외))
+  - z-index: 앞 과 뒤의 위치 배치하기(기준이되는 형태에 z-index를 주면, 해당 요소가 기준)
+  ![position 이미지 설명](img/position_base-01.jpg)
+
   
   
   
