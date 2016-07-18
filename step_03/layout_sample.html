@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="./css/reset.css">
+	<title>title</title>
+	<style>
+		.container{max-width: 960px; width: 100vw; height: auto; margin: 0 auto;}
+		.container>*{box-sizing:border-box; padding:5px 20px; margin: 0;}
+		#headBox{width: 100%; height:50px; position:relative;}
+		#headBox:before{content:""; width: 100vw; height:100%; background-color:#345; display:block; top:0; left:50%; margin-left: -50vw; z-index:-100; position:absolute;}
+			h1{width: 150px; height: 40px; float: left; font-size: 1.7rem; margin: 0; padding: 0;}
+			h1>a{color:#fff; text-decoration: none;}
+			 #unb{width: 500px; height: 40px; float: right; color:#ccc;}
+			
+		
+		#gnb{width: 100%; height: 120px; background-color:#acc;}
+        #addBanner{width: 100%; height:300px; background-color:#f55;}
+        #content{width: 100%; height:500px; background-color:#aca; }
+        #footBox{width: 100%; height:100px; background-color: #555;}
+        h2{color:#292; font-size: 1.3rem; margin: 0; padding: 0;}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header id="headBox">
+			<h1><a href="#">logo</a></h1>
+			<nav id="unb">
+				<h2>utility navigation</h2>
+			</nav>
+		</header>
+		<nav id="gnb">
+			<h2>navigation</h2>
+		</nav>
+		<section id="addBanner">
+			<h2>addBanner section</h2>
+		</section>
+		<article id="content">
+			<h2>content area</h2>
+		</article>
+		<footer id="footBox">
+			<h2>footer area</h2>
+		</footer>
+	</div>
+	<script></script>
+</body>
+</html>
