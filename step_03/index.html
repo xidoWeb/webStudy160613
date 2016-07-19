@@ -56,22 +56,48 @@
 				<li><a href="#"><img src="./img/lnb/lnb_04.jpg" alt="우양 브랜드 04"></a></li>
 			</ul>
 			<dl class="select_menu brand_sel_01">
-				<dt>View more brand</dt>
-				<dd>BASSETTI</dd>
-				<dd>PRATESI</dd>
-				<dd>CHRISTY</dd>
-				<dd>ABYSS HABIDECOR</dd>
+				<dt><a href="#">View more brand</a></dt>
+				<dd><a href="#">BASSETTI</a></dd>
+				<dd><a href="#">PRATESI</a></dd>
+				<dd><a href="#">CHRISTY</a></dd>
+				<dd><a href="#">ABYSS HABIDECOR</a></dd>
 			</dl>
 			<dl class="select_menu brand_sel_02">
-				<dt>Down comporter</dt>
-				<dd>MOLINA</dd>
-				<dd>DAUNENSTEP</dd>
-				<dd>DORBENA</dd>
-				<dd>TRUMINA</dd>
-				<dd>DAUNY</dd>
+				<dt><a href="#">Down comporter</a></dt>
+				<dd><a href="#">MOLINA</a></dd>
+				<dd><a href="#">DAUNENSTEP</a></dd>
+				<dd><a href="#">DORBENA</a></dd>
+				<dd><a href="#">TRUMINA</a></dd>
+				<dd><a href="#">DAUNY</a></dd>
 			</dl>
 		</aside>
-		<section id="container"></section>
+		<section id="container">
+			<div class="product">
+			<!-- 이미지 처리하는 방법 
+			*	1. img코드로 작성하고, 넘치는 영역을 부모요소에서 overflow:hidden; 
+			* 2. background-image로 css처리 (image, repeat, position)-->
+				<div class="main_product">
+					<a href="#">	
+						<img src="./img/main_container/con_01_01.png" alt="우영의 대표 상품군 설명">
+					</a>			
+				</div>
+				<div class="news_event">
+					<a href="#" title="news and event" aria-title="news and event">
+						<span class="hidden">news and event</span>
+					</a>
+				</div>
+				<div class="best_product">
+					<a href="#">
+						<span class="hidden">추천상품</span>
+					</a>
+				</div>
+			</div><!--// .product -->
+			<div class="promotion">
+				<div class="reservation"></div>
+				<div class="e_shop"></div>
+				<div class="store_location"></div>
+			</div><!--// .promotion -->
+		</section>
 		<nav id="fnb"></nav>
 		<footer id="footBox"></footer>
 	</div><!--// .container -->

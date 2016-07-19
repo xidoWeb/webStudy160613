@@ -9,7 +9,7 @@ html, body{margin: 0; padding: 0;
 	 -webkit-text-size-adjust: 100%;}
 
 h1,h2,h3,h4,h5,h6,p,div,table,tr,td,th, ul, ol, li, dl, dt, dd{margin: 0; padding: 0; font:inherit;}
-ul,ol,li{list-style: none; font:inherit;}
+ul,ol,li{list-style: none;}
 a{text-decoration: none; color:#555;}
 a:hover{font-weight:bold; color:#07f;}
 table,tr,td,th,thead,tbody,tfoot{
@@ -22,4 +22,4 @@ header, article, aside, nav, footer,section, main{display: block;}
 
 /* mySetting */
 .hidden, 
- h2,h3,h4,h5,h6{width: 0; height: 0; overflow: hidden;}
+ h2,h3,h4,h5,h6{width: 0; height: 0; display: block; overflow: hidden;}
