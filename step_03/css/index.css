@@ -10,7 +10,6 @@
 	#headBox>h1>a{width: 100%; height: 100%; display: block;}
 	#headBox>h1 img{width:100%; height:auto; border:0;}
 	#gnb{width: 411px; height: 15px; float: right;}
-	#gnb>h2{width: 0; height: 0; overflow: hidden;}
 	#gnb>ul{width: 100%; height: 100%;}
 	#gnb>ul>li{height: 100%; margin-right:22px; float: left;}
 	
@@ -35,6 +34,13 @@
 	/* #lnb  */
 	#lnb{height:114px; padding:20px 0; background-color: #fff; border-bottom: 1px solid #d3d3d3;
 	margin-bottom: 20px; box-sizing:border-box;}
+		.brand_main{width: 700px; height: 40px; margin-top: 12px; float: left; background-color: #acc;}
+		.select_menu{width: 250px; height: 32px; float: right; background-color: #afc;}
+		.brand_sel_01{margin-bottom: 5px;}
+
+
+	/* #container */
 	#container{height:750px; margin-bottom: 20px; background-color: #f0a;}
 	#fnb{height:276px; background-color: #e8e8e8;}
 	#footBox{height:80px; background-color: #707070;}
+	
