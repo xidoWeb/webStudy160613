@@ -1,0 +1,17 @@
+/* bg_test.css */
+
+.container{width: 960px; height: 500px; border: 1px solid  #777; margin: 0 auto; font-size:2em; font-weight: bold; line-height:2em; text-align: center;	text-decoration:underline; padding:3rem; box-sizing:border-box;
+	background-image:url("../img/bg_test.png");	
+	background-color: #faa;
+}
+.bgbox{background-repeat:repeat;}
+.repeat_x{background-repeat:repeat-x;}
+.repeat_y{background-repeat:repeat-y;}
+.repeat_no{background-repeat:no-repeat;}
+
+.position1{background-position:center center;}/* 가로가운데  세로가운데 */
+.position2{background-position:left center;}/* 가로왼쪽 세로가운데 */
+.position3{background-position:right bottom;}
+.position4{background-position:center top;}
+.position5{background-position:50% 50%;}
+.position6{background-position:-100px 100px;}

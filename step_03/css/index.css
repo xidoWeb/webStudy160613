@@ -43,6 +43,7 @@
 			/* text-indent:첫줄 들여쓰기; 
 			   line-height:줄간격, 한줄일경우 박스의 높이값을 주면 가운데로 배치 */
 		.brand_sel_01{margin-bottom: 5px; position:relative; z-index: 100;}
+		.brand_sel_02{position: relative; z-index: 50;}
 		.select_menu>dt{width: 100%; height: 100%; text-transform:uppercase; font-weight:bold;}
 		.select_menu>dd{width: 100%; height: 100%; background-color: #fff; display:none; 
 				border:inherit; border-top: 0; border-bottom: 0; box-sizing:border-box;}
