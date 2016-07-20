@@ -8,3 +8,15 @@ ul:after{content:""; display: block; clear: both;}
 ul>li{width: 120px; height: 120px; margin: 5px; float: left; box-sizing:border-box; border: 1px solid #777; padding: 0.3em; 
 	background-image: url("../img/is.png");	background-repeat: no-repeat;}
 .is_01{background-position:-350px -120px;}
+.is_02{background-position:-120px 0;}
+.is_03{background-position:-350px -120px;}
+.is_04{background-position:-460px -120px;}
+.is_05{background-position:right bottom;}
+.is_06{background-position:left -120px;}
+.is_07{background-position:-590px 0;}
+.is_08{background-position:-460px -250px; transition:all 0.5s ease;}
+.is_09{background-position:-350px -250px; transition:all 0.5s ease-in;}
+.is_10{background-position:-230px -250px; transition:all 0.5s ease-out;}
+.is_08:hover{background-position:-460px -375px;}
+.is_09:hover{background-position:-350px -375px;}
+.is_10:hover{background-position:-230px -120px;}
