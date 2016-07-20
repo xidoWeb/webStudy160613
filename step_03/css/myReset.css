@@ -26,3 +26,8 @@ header, article, aside, nav, footer,section, main{display: block;}
 
 .link a{width:100%; height:100%; display:block; backgroud-repeat:no-repeat;}
 .link a>span{width: 0; height: 0; display: block; overflow: hidden;}
+
+.back_line{ box-sizing:border-box; position: relative;}
+.back_line:after{content:""; display: block; width:100vw; height:inherit; 
+	position: absolute;	top: 0; left: 50%; margin-left:-50vw; z-index:-100;
+	background-color:inherit;}

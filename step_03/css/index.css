@@ -4,8 +4,7 @@
 .container>*{width: 100%;}
 	/* #headBox */
 	#headBox a:focus{outline: 0; border-bottom:2px solid #fa0;}
-	#headBox{height:40px; background-color: #707070; padding-top:12px; padding-bottom:10px; 
-		box-sizing: border-box; position: relative;}
+	#headBox{height:40px; background-color: #707070; padding-top:12px; padding-bottom:10px;}
 	#headBox>h1{width: 94px; height: 18px; float: left; background-color: #fff;}
 	#headBox>h1>a{width: 100%; height: 100%; display: block;}
 	#headBox>h1 img{width:100%; height:auto; border:0;}
@@ -22,14 +21,6 @@
 	
 	#gnb>ul a{width: 100%; height: 100%; display: block;}
 	#gnb>ul>li img{width:100%; height:auto;}
-
-	/* --- .head_bg: 배경이미지처리; */
-/*	.head_bg{width:100%; height:40px; background-color: #afc; 
-		position:absolute; top: 0; left: 0; z-index:-100;}*/
-	#headBox:before{content:""; width: 100vw; height: inherit; background-color:inherit; 
-	display: block; position: absolute; top: 0; left:50%; margin-left: -50vw; z-index:-100;}
-
-
 
 	/* #lnb  */
 	#lnb{height:114px; padding:20px 0; background-color: #fff; border-bottom: 1px solid #d3d3d3;
@@ -78,10 +69,7 @@
 	#fnb{height:276px; background-color: #e8e8e8;}
 
 	/* #footerBox */
-	#footBox{height:80px; padding: 14px 0; box-sizing:border-box; background-color: #707070;
-		position: relative;}
-	#footBox:after{content:""; display: block; width:100vw; height:inherit; 
-	position: absolute;	top: 0; left: 50%; margin-left:-50vw; z-index:-100;
-	background-color:inherit;}
+	#footBox{height:80px; padding: 14px 0; background-color: #707070;}
+
 	#footBox>h2{width: 86px; height: 100%; float: left;
 	background-image:url("../img/footBox/sub_logo.png"); background-repeat:no-repeat;}
