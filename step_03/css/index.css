@@ -66,7 +66,21 @@
 		.store_location>a{background-image:url("../img/main_container/con_02_03.png");}
 
 	/* #fnb */
-	#fnb{height:276px; background-color: #e8e8e8;}
+	#fnb{height:276px; background-color: #e8e8e8;
+	 padding-top: 44px; box-sizing: border-box;}
+	#fnb>.fnb_area{height:100%; margin-right:20px; display:inline-block;}
+	#fnb h3{width: 100%; height: auto; text-transform:uppercase;
+		font-size:1rem; font-weight: bold; letter-spacing:-0.0625px;
+		 margin-bottom:0.875rem; color:#505050;}
+
+	.company_store{width:110px;}
+		.company{width: 100%; height: auto; margin-bottom:30px;}
+	  .store{width: 100%; height: auto;}
+  .com_product{width:130px;}
+	  .community{width: 100%; height: auto; margin-bottom:30px;}
+	  .product_menu{width: 100%; height: auto;}
+  .brand_menu{width:410px;}
+  .sns{width:240px;}
 
 	/* #footerBox */
 	#footBox{height:80px; padding: 14px 0; background-color: #707070;}
