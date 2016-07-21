@@ -79,11 +79,21 @@
   .com_product{width:130px;}
 	  .community{width: 100%; height: auto; margin-bottom:30px;}
 	  .product_menu{width: 100%; height: auto;}
-  .brand_menu{width:410px;}
+  .brand_menu{width:440px;}
   .sns{width:240px;}
 
 	.fnb_area ul{width: 100%; height: auto;}
-	.fnb_area ul>li{width:auto; max-width:110px; height:1rem; margin-bottom:0.5rem; line-height: 1rem; font-size:0.875rem;}
+	.fnb_area ul>li{width:100%; height:1rem; margin-bottom:0.5rem; line-height: 1rem; font-size:0.875rem;  text-transform:capitalize;  
+		letter-spacing:-0.03125rem;}
+/*벤더 프리픽스 검색*/
+/*	#fnb .brand_menu>ul{
+		-webkit-columns: 125px 3; 
+    -moz-columns: 125px 3; 
+    -ms-columns: 125px 3; 
+    -o-columns: 125px 3; 
+    columns: 125px 3;}*/
+	#fnb .brand_menu>ul>li{text-transform:uppercase; width: 140px; 
+		margin-right: 5px; float: left;}
 
 	/* #footerBox */
 	#footBox{height:80px; padding: 14px 0; background-color: #707070;}
