@@ -1,0 +1,21 @@
+/* index_lnb.css */
+
+/* #lnb  */
+#lnb{height:114px; padding:20px 0; background-color: #fff; border-bottom: 1px solid #d3d3d3;
+margin-bottom: 20px; box-sizing:border-box;}
+	.brand_main{width: 700px; height: 40px; margin-top: 12px; float: left;}
+	.brand_main>li{height: auto; float: left; margin-right: 78px;}
+	.brand_main>li:last-child{margin-right: 0;}
+
+	.select_menu{width: 250px; height: 32px; float: right; background-color: #fff;
+		text-indent:10px; line-height:32px; box-sizing:border-box; border:1px solid #707070;}
+		/* text-indent:첫줄 들여쓰기; 
+		   line-height:줄간격, 한줄일경우 박스의 높이값을 주면 가운데로 배치 */
+	.brand_sel_01{margin-bottom: 5px; position:relative; z-index: 100;}
+	.brand_sel_02{position: relative; z-index: 50;}
+	.select_menu>dt{width: 100%; height: 100%; text-transform:uppercase; font-weight:bold;}
+	.select_menu>dd{width: 100%; height: 100%; background-color: #fff; display:none; 
+			border:inherit; border-top: 0; border-bottom: 0; box-sizing:border-box;}
+	
+	/*.select_menu>dt:hover ~ dd{display: block;}*/
+	.select_menu:hover > dd{display: block;}

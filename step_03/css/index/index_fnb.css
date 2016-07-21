@@ -1,0 +1,54 @@
+/* index_fnb */
+
+/* #fnb */
+#fnb{height:276px; background-color: #e8e8e8;
+ padding-top: 44px; box-sizing: border-box;}
+#fnb>.fnb_area{height:100%; margin-right:20px; float: left;}
+#fnb h3{width: 100%; height: auto; text-transform:uppercase;
+	font-size:1rem; font-weight: bold; letter-spacing:-0.0625px;
+	 margin-bottom:0.875rem; color:#505050;}
+
+.company_store{width:110px;}
+	.company{width: 100%; height: auto; margin-bottom:30px;}
+  .store{width: 100%; height: auto;}
+.com_product{width:130px;}
+  .community{width: 100%; height: auto; margin-bottom:30px;}
+  .product_menu{width: 100%; height: auto;}
+.brand_menu{width:440px;}
+.sns{width:240px;}
+
+.fnb_area ul{width: 100%; height: auto;}
+.fnb_area ul>li{width:100%; height:1rem; margin-bottom:0.5rem; line-height: 1rem; font-size:0.875rem;  text-transform:capitalize;  
+	letter-spacing:-0.03125rem;}
+/*벤더 프리픽스 검색*/
+/*	#fnb .brand_menu>ul{
+	-webkit-columns: 125px 3; 
+-moz-columns: 125px 3; 
+-ms-columns: 125px 3; 
+-o-columns: 125px 3; 
+columns: 125px 3;}*/
+#fnb .brand_menu>ul>li{text-transform:uppercase; width: 140px; 
+	margin-right: 5px; float: left;}
+/*#fnb .brand_menu>ul>li>a{background-color:#3a9;}*/
+.brand_menu>ul>li>a{background-image:url("../../img/fnb/fnb_05.png");}
+.brand_menu>ul>li>a:hover{border-bottom:2px solid #333;}
+	.brand_01 > a{background-position:0 -29px;}
+  .brand_02 > a{background-position:-145px -29px;}
+  .brand_03 > a{background-position:-290px -29px;}
+  .brand_04 > a{background-position:0 -53px;}
+  .brand_05 > a{background-position:-145px -53px;}
+  .brand_06 > a{background-position:-290px -53px;}
+  .brand_07 > a{background-position:0 -77px;}
+  .brand_08 > a{background-position:-145px -77px;}
+  .brand_09 > a{background-position:-290px -77px;}
+  .brand_10 > a{background-position:0 -100px;}
+  .brand_11 > a{background-position:-145px -100px;}
+  .brand_12 > a{background-position:-290px -100px;}
+  .brand_13 > a{background-position:0 -125px;}
+  .brand_14 > a{background-position:-145px -125px;}
+
+
+.sns > ol{width: 100%; height: auto; margin-bottom: 22px;}
+.sns > ol > li{width: 20%; height: 30px; display: inline-block;}
+.sns a{font-size:2rem; transition: all 0.5s;}
+.sns a:hover{color:#f33; transform:scale(1.2) rotate(5deg);}

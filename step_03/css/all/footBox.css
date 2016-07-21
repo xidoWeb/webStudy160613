@@ -1,0 +1,13 @@
+/* footBox.css */
+#footBox{height:80px; padding: 14px 0; background-color: #707070;}
+
+#footBox>h2{width: 86px; height: 100%; float: left;
+background-image:url("../../img/footBox/sub_logo.png"); background-repeat:no-repeat;}
+#footBox>address{width: 800px; height: 100%; float: left;
+	color:#fff; font-style:normal; font-size:1em; margin-left:35px;}
+#footBox>address>p{line-height:25px; line-height:1.5626em;/* 25px */ float: left;
+	letter-spacing:-0.0625em;}
+#footBox>address>p:first-child{margin-right:1em;}
+#footBox>address>p>a{color:inherit; border-right:1px solid #fff; padding-right:0.5em;}
+#footBox>address>p>a:hover{font-weight:normal; text-decoration:underline;}
+#footBox>address>p>a:last-child{border-right:0; padding-right:0;}
