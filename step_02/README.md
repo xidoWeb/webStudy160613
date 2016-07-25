@@ -101,6 +101,8 @@
     + 한글이나 별도의 외국어(영어제외) 폰트가 있다면, 영문폰트를 먼저 작성
     ("myriad pro", arial, NanumGothic, dotum, sans-serif)
     + 어떠한 폰트도 존재하지 않는다면, 최종적으로 해당하는 서체형태를 기입!!!(serif, sans-serif)
+  - text-transform: uppcase | lowercase | capitalize
+  - text-overfolow:clip | ellipsis 부모태그에서 overflow:hidden처리될경우 말줄임표
 8. **table 기능**
   - border-spacing: 선과 선 사이의 간격(table의 경우에는 tr,td, th 등 서로간의 간격이 떨어져 있기 때문에 둘을 붙이는 역할 값은 0)
   - border-collapse: 선과 선 사이를 완전하게 붙이는 역할(값 collapse)

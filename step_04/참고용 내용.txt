@@ -1,0 +1,31 @@
+﻿1. 사이트 유씨캐스트
+2. 포토샵: 그리드라인 / 레이어구분 / 슬라이스 / assistorPS 
+3. 영역별 구분
+   - header(#headBox)
+	|- h1(로고)
+	|- #unb(utility navigation bar_ 사이트맵)
+	|- #gnb(global nav... _ 상단 전체메뉴)
+   - aside(#lnb) 
+	|- h2(사이드 보조 배너)
+	|- 메뉴내용
+   - section(#addBanner)
+	|-h2(uccast  광고배너)
+   - article(#context)
+	|- h2(샘플영상)
+	|- ...
+   - aside(#fnb _ 전체상세 메뉴)
+	|- h2
+	|-  ...
+   - footer(#footBox)
+	|- h2
+	|- #company
+		|- 문의전화
+		|-  CEO
+		|- ...
+	|- #location
+	|- address(#copyright)
+4. 코딩작업
+   - html 문서(step_04폴더에 다시  index.html )
+   - css폴더(reset.css 적용, html문서와 css분리)
+   - img폴더(각 영역 구분)
+   - fontawesome.io(선택사항)			
