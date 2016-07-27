@@ -1,0 +1,46 @@
+@import url("../myicon/font/flaticon.css");
+/* @import url{all/headBox.css}; */
+
+/* index.css */
+/** 
+ * flaticon (css든 font든 필요할때 사용할 수 있도록 초기에 불러와서 세팅한다.!!! 
+ * -----------------------------------------------------------------------------
+ * color setting
+ * 메인( #282828 )
+ * 보조( #ffffff )
+ * 보조2( #f6f6f6 ) 
+ * 보조3( #c0c0c0 ) - font-color(282828 배경시)
+ * 포인트( #b30f16 ) - #fff 과 명도대미 3.9사용
+ * 포커스 컬러, hover(#fbb414) - point(3.9 : 1 ), -main(8.2 : 1)
+ */
+body{overflow-x: hidden;}
+.container{width: 960px; height: 2000px; margin: 0 auto;}
+.container>*{width: 100%; border-left:1px solid #fff; border-right:1px solid #fff; 
+	box-sizing:border-box;}
+	/* ------ #headBox ------ */
+	#headBox{height:120px; background-color:#282828;}
+		h1{width:148px; height:115px; float:left; background-color: #fff;}
+		#unb{width:152px; height:32px; float:right; background-color: #0ff; transition:all 0.4s;}
+		#unb:hover{height: 100%; }
+			#unb:after{content:""; display:block; float:left; width:10px; height:100%;
+			 background-image:url("../img/headBox/unb_01.png"); 
+			 background-repeat:no-repeat; background-position:left bottom;}
+			#unb:before{content:""; display:block; float:right; width:10px; height:100%;
+			 background-image:url("../img/headBox/unb_03.png"); 
+			 background-repeat:no-repeat; background-position:right bottom;}
+	 	#gnb{width:560px; height:20px; float:left; 
+	 		margin-left: 92px; margin-top:52px; background-color: #fff;}
+
+	/* ------ #lnb ------ */
+	#lnb{height: 510px; }
+	#lnb:after{background-color:#c0c0c0; background-image:url("../img/lnb/pattern_01.png");}
+
+
+	/* ------ #addBanner ------ */
+	.container>#addBanner{width: 100vw; height: 630px; background-color:#fac;
+		position: relative; left: 50%; margin-left:-50vw; top: 0; z-index: 100;
+		box-shadow:0 3px 3px rgba(40,40,40,0.5);}/* box-shadow:가로값 세로값 번짐정도 (크기값) 색상 (inset);*/
+	#search{height: 90px; background-color:#c0c0c0;}
+	#infoBank{height: 270px; background-color:#f6f6f6;}
+	#fnb{height: 330px; background-color:#c0c0c0;}
+	#footBox{height: 180px; background-color:#adc;}
