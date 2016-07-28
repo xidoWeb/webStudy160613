@@ -1,14 +1,15 @@
-/* myreset.css */
+ myreset.css */
 a:focus, input:focus, button:focus{outline:3px solid #fb0;}
 html, body{margin: 0; padding: 0;
 	color:#333;
 	 font-family: sans-serif;
-	 line-height: 1.15;
+	 /*line-height: 1.15;*/
 	 font-size:100%;
 	 -ms-text-size-adjust: 100%;
 	 -webkit-text-size-adjust: 100%;}
 
-h1,h2,h3,h4,h5,h6,p,div,table,tr,td,th, ul, ol, li, dl, dt, dd{margin: 0; padding: 0; font:inherit;}
+h1,h2,h3,h4,h5,h6,p,div,table,tr,td,th, ul, ol, li, dl, dt, dd
+{margin: 0; padding: 0; font:inherit;}
 ul,ol,li{list-style: none;}
 a{text-decoration: none; color:#555;}
 a:hover{font-weight:bold; color:#07f;}
@@ -28,6 +29,7 @@ header, article, aside, nav, footer,section, main{display: block;}
 .link a>span{width: 0; height: 0; display: block; overflow: hidden;}
 
 .back_line{ box-sizing:border-box; position: relative;}
-.back_line:after{content:""; display: block; width:100vw; height:inherit; 
+.back_line:after{content:""; display: block; width:100vw; height:100%; 
 	position: absolute;	top: 0; left: 50%; margin-left:-50vw; z-index:-100;
 	background:inherit;}
+.clearfix:after, .cf:after{content:""; display: block; clear: both;}

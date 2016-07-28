@@ -13,33 +13,57 @@
  * 포인트( #b30f16 ) - #fff 과 명도대미 3.9사용
  * 포커스 컬러, hover(#fbb414) - point(3.9 : 1 ), -main(8.2 : 1)
  */
-body{overflow-x: hidden;}
+/*body{overflow-x: hidden;}*/
 .container{width: 960px; height: 2000px; margin: 0 auto;}
 .container>*{width: 100%; border-left:1px solid #fff; border-right:1px solid #fff; 
 	box-sizing:border-box;}
 	/* ------ #headBox ------ */
 	#headBox{height:120px; background-color:#282828;}
 		h1{width:148px; height:115px; float:left; background-color: #fff;}
-		#unb{width:152px; height:32px; float:right; background-color: #0ff; transition:all 0.4s;}
+		#unb{width:auto; max-width:132px; height:32px; margin-right: 10px; float:right; transition:all 0.4s;
+			background-image: url(../img/headBox/unb_02.png); background-position: 10px 0;
+			}
 		#unb:hover{height: 100%; }
-			#unb:after{content:""; display:block; float:left; width:10px; height:100%;
+			#unb:before{content:""; display:block; float:left; 
+			 margin-left: -10px; 
+			 width:10px; height:100%;
 			 background-image:url("../img/headBox/unb_01.png"); 
-			 background-repeat:no-repeat; background-position:left bottom;}
-			#unb:before{content:""; display:block; float:right; width:10px; height:100%;
-			 background-image:url("../img/headBox/unb_03.png"); 
 			 background-repeat:no-repeat; background-position:right bottom;}
+			#unb:after{content:""; display:block; float:right; 
+			 margin-right: -10px;
+			 width:10px; height:100%;
+			 background-image:url("../img/headBox/unb_03.png"); 
+			 background-repeat:no-repeat; background-position:left bottom;}
 	 	#gnb{width:560px; height:20px; float:left; 
 	 		margin-left: 92px; margin-top:52px; background-color: #fff;}
 
 	/* ------ #lnb ------ */
-	#lnb{height: 510px; }
-	#lnb:after{background-color:#c0c0c0; background-image:url("../img/lnb/pattern_01.png");}
-
+	#lnb{height:auto; min-height: 510px; padding:30px 0; }
+		#lnb:after{background-color:#c0c0c0; background-image:url("../img/lnb/pattern_01.png");}
+		#lnb>dl{width: 100%; height: auto; background-color: #ff7;}
+		#lnb>dl>dt{width:312px; height:215px; background-color: #6f7; float:left; margin:3px;}
+		#lnb h2{}
+		#lnb>dl>dd{width:312px; height:215px; background-color: #6f7; float:left; margin:3px;}
 
 	/* ------ #addBanner ------ */
-	.container>#addBanner{width: 100vw; height: 630px; background-color:#fac;
+	.container > #addBanner{width: 100vw; height: 630px; background-color:#fac;
 		position: relative; left: 50%; margin-left:-50vw; top: 0; z-index: 100;
 		box-shadow:0 3px 3px rgba(40,40,40,0.5);}/* box-shadow:가로값 세로값 번짐정도 (크기값) 색상 (inset);*/
+		#addBanner > .btn{width:40px; height: 150px; background-color: #00fcfc; position:absolute;
+			top: 50%; margin-top: -75px; z-index:200;}
+    #addBanner > .left_btn{left: 10px;}
+    #addBanner > .right_btn{right: 10px;}
+    /* 광고슬라이드배너(미니) */
+    .mini_slide_banner{}
+    .mini_slide_banner>li{}
+    
+    .full_slide_banner{width: 400%; height: 100%; margin-left:-100%;}
+    .full_slide_banner>li{width:25%; height: 100%; float: left;}
+    .full_slide_banner>li:nth-child(1){background-color:#9ac;}
+    .full_slide_banner>li:nth-child(2){background-color:#aac;}
+    .full_slide_banner>li:nth-child(3){background-color:#f4c;}
+    .full_slide_banner>li:nth-child(4){background-color:#77f;}
+
 	#search{height: 90px; background-color:#c0c0c0;}
 	#infoBank{height: 270px; background-color:#f6f6f6;}
 	#fnb{height: 330px; background-color:#c0c0c0;}
