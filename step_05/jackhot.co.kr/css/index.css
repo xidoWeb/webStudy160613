@@ -48,23 +48,44 @@
 	/* ------ #addBanner ------ */
 	.container > #addBanner{width: 100vw; height: 630px; background-color:#fac;
 		position: relative; left: 50%; margin-left:-50vw; top: 0; z-index: 100;
-		box-shadow:0 3px 3px rgba(40,40,40,0.5);}/* box-shadow:가로값 세로값 번짐정도 (크기값) 색상 (inset);*/
-		#addBanner > .btn{width:40px; height: 150px; background-color: #00fcfc; position:absolute;
+		box-shadow:0 3px 3px rgba(40,40,40,0.5); overflow: hidden;}
+		/* box-shadow:가로값 세로값 번짐정도 (크기값) 색상 (inset);*/
+	#addBanner > .btn{width:40px; height: 150px; background-color: #00fcfc; position:absolute;
 			top: 50%; margin-top: -75px; z-index:200;}
     #addBanner > .left_btn{left: 10px;}
     #addBanner > .right_btn{right: 10px;}
     /* 광고슬라이드배너(미니) */
-    .mini_slide_banner{}
+    .mini_slide_banner{width: 320px; width: 20rem; height: 370px; height: 23.125rem;
+    	position: absolute; right: 7.5rem;/*120px*/ bottom: 1.875rem;/* 30px */ 
+    	background-color:rgba(40,40,40,0.7); box-shadow:0.1rem 0.1rem 0.01rem #282828;}
     .mini_slide_banner>li{}
     
     .full_slide_banner{width: 400%; height: 100%; margin-left:-100%;}
     .full_slide_banner>li{width:25%; height: 100%; float: left;}
-    .full_slide_banner>li:nth-child(1){background-color:#9ac;}
-    .full_slide_banner>li:nth-child(2){background-color:#aac;}
-    .full_slide_banner>li:nth-child(3){background-color:#f4c;}
-    .full_slide_banner>li:nth-child(4){background-color:#77f;}
+    .full_slide_banner>.full_slide_list_01{background-color:#9ac;}
+    .full_slide_banner>.full_slide_list_02{background-color:#aac;}
+    .full_slide_banner>.full_slide_list_03{background-color:#f4c;}
+    .full_slide_banner>.full_slide_list_04{background-color:#77f;}
 
-	#search{height: 90px; background-color:#c0c0c0;}
+	/* -- #search -- */
+	#search{height: 90px; background-color:#c0c0c0; padding: 1.25rem 7.5rem;}
+	#search>form, #search>form>fieldset{width: 100%; height: 100%;}
+	/*#search>form>fieldset{width:inherit; height: inherit;}*/
+	#productSearch{width: 638px; height:100%;  border:4px solid #282828;
+		font-size:1.5rem;}
+	#searchButton{position: absolute; z-index: -1000;}
+	label[for="searchButton"]{width: 80px; height: 100%; display:block; 
+		float:right; background-color: #282828; color:#fff; cursor:pointer;
+		line-height:3rem; text-align: center; font-size:1.7rem; font-weight:bold;
+		padding-right:1.5rem; box-sizing: border-box;}
+	#searchButton:focus + label{outline: 3px solid #fbb414; color:#fbb414; 
+		position: relative; z-index: 1000;}
+
+	/* #infoBank */
 	#infoBank{height: 270px; background-color:#f6f6f6;}
+	
+	/* #fnb */
 	#fnb{height: 330px; background-color:#c0c0c0;}
+
+	/* #footBox */
 	#footBox{height: 180px; background-color:#adc;}

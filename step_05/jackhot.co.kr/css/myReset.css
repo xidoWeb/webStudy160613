@@ -1,4 +1,4 @@
- myreset.css */
+/* myreset.css */
 a:focus, input:focus, button:focus{outline:3px solid #fb0;}
 html, body{margin: 0; padding: 0;
 	color:#333;
@@ -17,6 +17,15 @@ table,tr,td,th,thead,tbody,tfoot{
 	border:1px solid #777; border-spacing:0; border-collapse:collapse;
 	border-left:0; border-right:0;}
 thead{background-color:#ccc;}
+
+form, fieldset{border: 0;}
+input[type="text"], input[type="password"]{border:1px solid #282828; box-sizing: border-box;
+	text-indent:0.3rem;}
+input[type="text"]:focus, 
+input[type="password"]:focus{background-color:rgba(251,180,20,0.5); outline: 0;}
+
+input[type="button"], input[type="submit"],
+input[type="reset"], button{border:0; cursor:pointer;}
 
 /* html5 */
 header, article, aside, nav, footer,section, main{display: block;}
