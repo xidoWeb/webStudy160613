@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+	<link rel="apple-touch-icon" href="favicon.png">
+	<title>title_name</title>
+	<style></style>
+</head>
+<body>
+	
+	<script>
+		
+		var v_browser = window.innerWidth;
+		var v_01 = 480, v_02 = 640, v_03 = 768, v_04 = 1024, v_05 = 1200; 
+
+		function bgColor(color){
+			 document.body.style.backgroundColor = color;
+		};
+
+		function v_size(){
+			// 크기값을 확인
+			if (v_browser <= v_01){
+				bgColor('#777');
+			}else if(v_browser > v_01  && v_browser <= v_02){
+				bgColor('#fac');
+			}else if(v_browser > v_02  && v_browser <= v_03){
+				bgColor('#acc');
+			}else if(v_browser > v_03  && v_browser <= v_04){
+				bgColor('#fa3');
+			}else if(v_browser > v_04  && v_browser <= v_05){
+				bgColor('#afa');
+			}else{
+				bgColor('#0af');
+			}
+		};
+		v_size();
+
+
+	</script>
+</body>
+</html>
