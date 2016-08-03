@@ -10,6 +10,25 @@
 	<title>Document</title>
 </head>
 <body>
-	<script src="./js/js_01.js"></script>
+
+<script>
+var my_div = null;
+var newDiv = null;
+
+
+  newDiv = document.createElement("div");
+  newDiv.innerHTML = "<h1>안녕! 반가워!</h1>";
+
+ 
+  my_div = document.getElementById("org_div1");
+  document.body.insertBefore(newDiv, my_div);
+
+
+</script>
+
+
+<div id='org_div1'> 위의 문장은 동적으로 만들어 진 것입니다.</div>
+
+	<script src="./js/js_02.js"></script>
 </body>
 </html>
