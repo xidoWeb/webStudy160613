@@ -1,11 +1,13 @@
 @import url("./base/color_setting.css");
 @import url("./base.css");
-
 /* gcass_index.css */
 
+body{background-image: url("../img/sub_01/bg01.jpg");}
 
+	.con_box:before{background-color:transparent;}
+	.con_box:after{background-color:transparent;}
 
-#content{width: 730px; height: 100%; float:right;
+	#content{width: 730px; height:3000px; float:right;
 		background-image: url(../img/index/main_content/greenbg.png);
 		background-repeat:no-repeat;	background-position:340px 50px;}
 
