@@ -4,13 +4,14 @@
 
 body{background-image: url("../img/sub_01/bg01_patt.jpg");}
 
-	
-
-	#content{width: 730px; height: 2000px;}
+	#content{width: 730px; height: 2000px; padding-top: 86px; float: right;}
 	/*#headBox{background-color:transparent;}*/
 	/*#headBox:before{background-color:transparent;}*/
-	.computer{width: 330px; height: 520px; margin-top: 125px; margin-left: 80px;
-		transition:transform 1s ease;} 
-	.computer:hover{transform:translate(200px);}
-	.computer>a{background-image: url("../img/index/main_content/computer.png");}
-	.computer>a:hover{background-image: url("../img/index/main_content/computer_on.png");}
+	#content > hgroup{width: 100%; height: 40px; float: right; margin-right:60px;}
+	#content > hgroup>h2{width:auto; height:auto; overflow:visible; float: right; 
+		color:#fff; font-weight: bold; font-size:2.5rem;}
+	#content > hgroup>h3{width:auto; height:auto; overflow:visible; float: right; margin-right:1rem; color:#fff; font-size: 1.5rem; margin-top:1.3rem;}
+
+	.curri_01{width: 660px; height: 550px; margin-top: 50px; margin-bottom:50px;
+		background-color: #0af;}
+	.curri_02{width: 670px; height: 315px; background-color: #acc; }
