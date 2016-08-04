@@ -5,9 +5,13 @@
 
 
 
-#content{width: 730px; height: 100%; float:right;
+#content{width: 730px; height:710px; float:right; position: relative;
 		background-image: url(../img/index/main_content/greenbg.png);
 		background-repeat:no-repeat;	background-position:340px 50px;}
+#content:after{
+	content:""; display: block; width: 50vw; height: 100%;
+	position: absolute; top: 0; z-index:-100;
+	background-color:#adadad;right: 50%; margin-right:calc(-50vw + 125px);}
 
 	.computer{width: 330px; height: 520px; margin-top: 125px; margin-left: 80px;
 		transition:transform 1s ease;} 

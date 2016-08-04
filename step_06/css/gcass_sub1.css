@@ -2,15 +2,13 @@
 @import url("./base.css");
 /* gcass_index.css */
 
-body{background-image: url("../img/sub_01/bg01.jpg");}
+body{background-image: url("../img/sub_01/bg01_patt.jpg");}
 
-	.con_box:before{background-color:transparent;}
-	.con_box:after{background-color:transparent;}
+	
 
-	#content{width: 730px; height:3000px; float:right;
-		background-image: url(../img/index/main_content/greenbg.png);
-		background-repeat:no-repeat;	background-position:340px 50px;}
-
+	#content{width: 730px; height: 2000px;}
+	/*#headBox{background-color:transparent;}*/
+	/*#headBox:before{background-color:transparent;}*/
 	.computer{width: 330px; height: 520px; margin-top: 125px; margin-left: 80px;
 		transition:transform 1s ease;} 
 	.computer:hover{transform:translate(200px);}
