@@ -1,0 +1,45 @@
+/* myreset.css */
+a:focus, input:focus, button:focus{
+	outline:3px solid #fb0; position: relative; z-index:1000; outline-offset:0.3rem;}
+html, body{margin: 0; padding: 0;
+	color:#333;
+	 font-family: sans-serif;
+	 /*line-height: 1.15;*/
+	 font-size:100%;
+	 -ms-text-size-adjust: 100%;
+	 -webkit-text-size-adjust: 100%;}
+
+h1,h2,h3,h4,h5,h6,p,div,table,tr,td,th, ul, ol, li, dl, dt, dd
+{margin: 0; padding: 0; font:inherit;}
+ul,ol,li{list-style: none;}
+a{text-decoration: none; color:#555;}
+a:hover{font-weight:bold; color:#07f; text-decoration: none;}
+table,tr,td,th,thead,tbody,tfoot{
+	border:1px solid #777; border-spacing:0; border-collapse:collapse;
+	border-left:0; border-right:0;}
+thead{background-color:#ccc;}
+
+form, fieldset{border: 0;}
+input[type="text"], input[type="password"]{border:1px solid #282828; box-sizing: border-box;
+	text-indent:0.3rem;}
+input[type="text"]:focus, 
+input[type="password"]:focus{background-color:rgba(251,180,20,0.5); outline: 0;}
+
+input[type="button"], input[type="submit"],
+input[type="reset"], button{border:0; cursor:pointer;}
+
+/* html5 */
+header, article, aside, nav, footer,section, main{display: block;}
+
+/* mySetting */
+.hidden, 
+ h2,h3,h4,h5,h6{width: 0; height: 0; display: block; overflow: hidden;}
+
+.link a{width:100%; height:100%; display:block; background-repeat:no-repeat;}
+.link a>span{width: 0; height: 0; display: block; overflow: hidden;}
+
+.back_line{ box-sizing:border-box; position: relative;}
+.back_line:after{content:""; display: block; width:100vw; height:100%; 
+	position: absolute;	top: 0; left: 50%; margin-left:-50vw; z-index:-100;
+	background:inherit;}
+.clearfix:after, .cf:after{content:""; display: block; clear: both;}
