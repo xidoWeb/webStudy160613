@@ -83,12 +83,14 @@ ___
 **검사**  
 1. 마크업 오류 방지 : 열고 닫음, 중첩관계 및 속성 선언  
 2. 웹 어플리케이션 접근성 준수  
+___
 
 ### 브라우저 설치
 - [IE](https://support.microsoft.com/ko-kr/help/17621/internet-explorer-downloads)
 - [chrome](www.google.com/chrome)
 - [firefox](www.mozilla.com)
 - [opera](www.opera.com)
+___
 
 ### 프로그램 설치
 - <http://witstudio.net> : 포토샵 이미지저장 프로그램
