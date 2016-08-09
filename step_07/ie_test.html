@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/base/myReset.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+	<link rel="apple-touch-icon" href="favicon.png">
+	<!--[if lte IE 9]>
+		<script src="./lt_IE/html5shiv/dist/html5shiv.min.js"></script>
+		<script src="./lt_IE/PIE/PIE.js"></script>
+		<script src="lt_IE/responsive.min.js"></script>
+	<![endif]-->
+	<!-- pie.js 사용시 css말미에 behavior: url(../PIE/PIE.htc); 붙여라!! -->
+	<title>title_name</title>
+	<style>
+		button{padding:1rem; background-color: #4aa; color:#fff; font-weight: bold;
+			transition:all 0.5s;}
+		button:hover{text-shadow:0.1rem 0.1rem 0.1rem #fa0; font-size: 1.2em;}
+	</style>
+</head>
+<body>	
+		<button id="btn" type="button">버튼 누르기</button>
+		<button id="reset" type="button">초기화버튼</button>
+	<script src="./js/jquery/jquery-1.12.4.min.js"></script>
+	<script src="./js/jquery/jquery-migrate-3.0.0.min.js"></script>
+	<script src="./js/jquery/jquery-ui.min.js"></script>
+	<script>
+		$(document).ready(function(){
+				// var btn  = document.querySelector('#btn');
+				// var rest = document.querySelector('#reset');
+
+				var win_width = $(window).width();
+				var mobile    = 600;
+				var table     = 768;
+				var pc        = 1024;
+				// console.log(win_width);
+
+				if(win_width < mobile){
+					$('body').css({'background-color': '#fac'});
+				} else if(win_width >= mobile && win_width < table){
+					$('body').css({'background-color': '#6ac'});
+				} else{
+					$('body').css({'background-color': '#67c'});
+				};
+
+		});
+	</script>
+</body>
+</html>

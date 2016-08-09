@@ -3,4 +3,8 @@
 @font-face{
 	font-family:myPenFont;
 	src:url("NanumPenScript-Regular.ttf");
+/*	src:url("NanumPenScript-Regular.woff");
+	src:url("NanumPenScript-Regular.eot");*/
+	font-weight:normal;
+	font-style:normal;
 }
