@@ -1,9 +1,9 @@
 /* myreset.css */
 a:focus, input:focus, button:focus{
 	outline:3px solid #fb0; position: relative; z-index:1000; outline-offset:0.3rem;}
-html, body{margin: 0; padding: 0;
+html, body{margin: 0; padding: 0; height: 100%;
 	color:#333;
-	 font-family: sans-serif;
+	font-family: Oswald, arial, dotum, sans-serif;
 	 /*line-height: 1.15;*/
 	 font-size:100%;
 	 -ms-text-size-adjust: 100%;

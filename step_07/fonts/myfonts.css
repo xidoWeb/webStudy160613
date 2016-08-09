@@ -1,0 +1,6 @@
+/* myfonts.css */
+
+@font-face{
+	font-family:myPenFont;
+	src:url("NanumPenScript-Regular.ttf");
+}
