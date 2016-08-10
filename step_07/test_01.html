@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/base/myReset.css">
+	<link rel="stylesheet" href="./css/form_test_01.css">
+	<!--[if lte IE 9]>
+		<script src="lt_IE/html5shiv/dist/html5shiv.min.js"></script>
+		<script src="lt_IE/PIE/PIE.js"></script>
+		<script src="lt_IE/responsive.min.js"></script>
+	<![endif]-->
+	<script src="./js/jquery/jquery-1.12.4.min.js"></script>
+	<script src="./js/jquery/jquery-migrate-3.0.0.min.js"></script>
+	<script src="./js/jquery/jquery-ui.min.js"></script>
+	<title>title</title>
+	<script>
+		$(document).ready(function(){
+
+		});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<form action="#" method="post">
+			<fieldset>
+				<legend>form 영역 제목</legend>
+				<div class="log_in_input">
+					<input type="text" id="idName" name="idName" value="">
+					<label for="idName" class="hidden"><abbr title="identity">ID</abbr> 입력하기</label>
+					<input type="password" id="pwdName" name="pwdName" value="">
+					<label for="pwdName" class="hidden">비밀번호 입력하기</label>
+					<input type="submit" id="logIn" name="logIn" value="log in">
+					<label for="logIn" class="hidden">log in</label>
+				</div><!--// .log_in_input -->
+				<div class="my_id">
+					<input type="checkbox" name="rememberId" id="rememberId" value="rememberId">
+					<label for="rememberId"><abbr title="identity">ID</abbr> 기억하기</label>
+					<div class="find_me">
+						<a href="#" class="find_id"><abbr title="identity">ID</abbr> 찾기</a>
+						<a href="#" class="pwd_find">비밀번호 찾기</a>
+					</div><!--// .find_me -->
+				</div><!--// .my_id -->
+			</fieldset>
+		</form>
+		<button type="button" class="close"><i aria-hidden="true"></i>
+		  <span class="hidden">로그인 창 </span>닫기</button>
+	</div>
+</body>
+</html>

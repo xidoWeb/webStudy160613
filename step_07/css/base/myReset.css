@@ -9,7 +9,8 @@ html, body{margin: 0; padding: 0; height: 100%;
 	 -ms-text-size-adjust: 100%;
 	 -webkit-text-size-adjust: 100%;}
 
-h1,h2,h3,h4,h5,h6,p,div,table,tr,td,th, ul, ol, li, dl, dt, dd
+h1,h2,h3,h4,h5,h6,p,div,table,tr,td,th, ul, ol, li, dl, dt, dd,
+form, fieldset, legend
 {margin: 0; padding: 0; font:inherit;}
 ul,ol,li{list-style: none;}
 a{text-decoration: none; color:#555;}
@@ -29,7 +30,7 @@ input[type="button"], input[type="submit"],
 input[type="reset"], button{border:0; cursor:pointer;}
 
 /* html5 */
-header, article, aside, nav, footer,section, main{display: block;}
+header, article, aside, nav, footer,section, main, figure, hgroup{display: block;}
 
 /* mySetting */
 .hidden, 
