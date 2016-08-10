@@ -1,0 +1,36 @@
+/* ie8- 버전 */
+
+
+.container{width:250px;  height: 120px; margin: 80px auto;
+	background-color: #ccc; behavior: url(../pie/PIE.htc);}
+form{width: 100%; height: 100px; background-color: #777; 
+	padding:24px 15px 8px; box-sizing:border-box; behavior: url(../pie/PIE.htc);}
+fieldset{width: 100%; height: 100%;}
+legend{width: 0; height: 0; overflow: hidden;}
+.log_in_input{width: 100%; height:50px; margin-bottom:6px; behavior: url(../pie/PIE.htc);}
+#idName{width:154px; height: 22px; float: left; border:0; margin-bottom:6px;}
+#pwdName{width:154px; height: 22px; float: left; border:0;}
+
+#idName:focus, #pwdName:focus{background-color: #fd9;}
+
+#logIn{width: 56px; height: 50px; background-color: #f06; color:#fff; float: right;
+	font-weight: bold; text-transform:uppercase; word-spacing:-3.2px; font-family:'myriad pro';
+	margin-top: -28px;}
+
+.my_id{width: 100%; height: 18px; }
+#rememberId{width:12.8px; height:12.8px; margin-top:2.6px; float: left;}
+label[for="rememberId"]{float: left; behavior: url("../pie/PIE.htc");}
+label[for="rememberId"], .find_me>a {color:#fff; font-size: 13.5px; 
+	letter-spacing:-1px; word-spacing:-3.2px; line-height:18px; behavior: url("../pie/PIE.htc");}
+.find_me{float: right;}
+.find_me>a:first-of-type{margin-right: 11.2px; position: relative;}
+.find_me>a:first-of-type::after{content:"";
+		border-right:1px solid #f06; height: 70%; top: 15%;
+		right:-8px; position: absolute; behavior: url(../pie/PIE.htc);}
+.close{float: right; margin-right:15px; background-color:transparent; 
+	font-size: 12.8px; behavior: url("../pie/PIE.htc");}
+.close>i{float: left; margin-left: -16px; margin-top: 3.2px;
+	border:5px solid #282828; 
+	border-top-color:transparent; 
+	border-left-color:transparent; 
+	border-right-color:transparent; behavior: url("../pie/PIE.htc");}

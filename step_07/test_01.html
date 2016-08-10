@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="./css/base/myReset.css">
 	<link rel="stylesheet" href="./css/form_test_01.css">
 	<!--[if lte IE 9]>
+		<link rel="stylesheet" href="css/ie_lte8.css">
 		<script src="lt_IE/html5shiv/dist/html5shiv.min.js"></script>
 		<script src="lt_IE/PIE/PIE.js"></script>
 		<script src="lt_IE/responsive.min.js"></script>
@@ -34,8 +35,10 @@
 					<label for="logIn" class="hidden">log in</label>
 				</div><!--// .log_in_input -->
 				<div class="my_id">
-					<input type="checkbox" name="rememberId" id="rememberId" value="rememberId">
-					<label for="rememberId"><abbr title="identity">ID</abbr> 기억하기</label>
+					<label for="rememberId">
+						<input type="checkbox" name="rememberId" id="rememberId" value="rememberId">
+						<abbr title="identity">ID</abbr> 기억하기
+					</label>
 					<div class="find_me">
 						<a href="#" class="find_id"><abbr title="identity">ID</abbr> 찾기</a>
 						<a href="#" class="pwd_find">비밀번호 찾기</a>
@@ -45,6 +48,19 @@
 		</form>
 		<button type="button" class="close"><i aria-hidden="true"></i>
 		  <span class="hidden">로그인 창 </span>닫기</button>
+
+
+
+<!-- 		  <a href="" id="linkPage" role="button"></a>
+		<script>
+			var link = document.querySelector('#linkPage')
+			link.addEventListener('click', function(e){
+				e.preventDefault();
+
+				// return false;
+			});
+		</script> -->
+
 	</div>
 </body>
 </html>
