@@ -40,10 +40,31 @@
 						 <form action="#" method="post">
 						 	<fieldset class="mobile">
 						 		<legend>휴대폰 인증 번호 입력영역</legend>
+						 		<dl>
+						 			<dt></dt>
+						 			<dd></dd>
+						 			<dd></dd>
+						 			<dd></dd>
+						 		</dl>
+						 		<dl>
+						 			<dt></dt>
+						 			<dd></dd>
+						 			<dd></dd>
+						 			<dd></dd>
+						 		</dl>
+						 		<label for="certify">
+						 			<input type="checkbox" name="ok" id="certify" value="certification" />
+						 			개인정보 제공 및 활용에 동의 합니다.
+						 		</label>
+
 						 	</fieldset>
 
 						 	<fieldset class="send">
 						 		<legend>인증 확인 및 취소</legend>
+						 		<input type="submit" name="done" id="done" value="확인">
+						 		<label for="done" class="hidden">위 내용에 동의하고 확인하겠습니다.</label>
+						 		<input type="reset" name="cancle" id="cancle" value="취소">
+						 		<label for="cancle" class="hidden">위 내용을 취소 하겠습니다.</label>
 						 	</fieldset>
 						 </form>
 				</div>

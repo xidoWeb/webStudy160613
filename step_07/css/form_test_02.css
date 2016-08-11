@@ -10,15 +10,33 @@ h1{width: 100%; height: 2rem; padding-bottom: 0.5rem; border-bottom:1px solid #3
 	background-image:-moz-linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%); 
 	background-image:-ms-linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%); 
 	background-image:-o-linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%); 
-	background-image:linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%); 
+	background-image:linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%);}
 
-}
 	.certifi_content{width: 100%; height:18.25rem; 
-		padding:1.125rem 2.875rem; 
-		box-sizing:border-box; background-color: #ccc;}
-	.certifi_content > h3{width: auto; height: auto; color:#333; font-size:1.125rem; margin-bottom:0.5rem;}
-	.certifi_content > p{color:#333; font-size: 1rem;
-		line-height:1.2;}
+		padding:1.125rem 2.375rem; 
+		box-sizing:border-box; background-color: #dfdfdf;}
+	.certifi_content > h3{width: auto; height: auto; color:#333; font-size:1.125rem; margin-bottom:0.5rem; 
+		font-weight: bold; padding-left: .5rem;}
+	.certifi_content > p{color:#333; font-size: 0.875rem;
+		line-height:1.2; padding-left: .5rem; margin-bottom:0.75rem;}
 
-	.certifi_content > form{}
+	.certifi_content > form{width: 100%; height: 187px; background-color:#afafaf;}
+	legend{width: 0; height: 0; overflow: hidden;}
+	/*mobile number input */
+	.mobile{width:100%; height:134px; margin-bottom: 14px;
+		border-bottom:1px solid #333;}
+	.mobile>dl{width: 100%; height: 48px; 
+		background-color:#fa0;padding-left:10px; box-sizing:border-box;}
+	.mobile>dl:first-of-type{padding-top:22px;}
+	.mobile>dl:last-of-type{padding-top:12px;}
+	.mobile>dl>dt{width:70px; height:20px; margin-right: 10px; float: left;
+		background-color:#fff; outline:1px solid;}
+	.mobile>dl>dd{width:90px; height:20px; float: left;background-color:#fff; outline:1px solid;}
 
+	/* send button */
+	.send{width:12.125rem; height:2.5rem; margin-left: 5.75rem;}
+	.send>input{width:4.375rem; height: 2.5rem; font-size:1.125rem; font-weight: bold; color:#fff;}
+	.send>input:focus:after{border-bottom:3px solid #333;}
+	#done{background-color: #f06; float: left;}
+  #cancle{background-color: #ccc; color:#333; font-weight:normal; 
+  	float: right;}
