@@ -41,10 +41,40 @@
 						 	<fieldset class="mobile">
 						 		<legend>휴대폰 인증 번호 입력영역</legend>
 						 		<dl>
-						 			<dt></dt>
-						 			<dd></dd>
-						 			<dd></dd>
-						 			<dd></dd>
+						 			<dt><label for="firstNum">
+						 				<span class="hidden">고객님의 </span>
+						 				휴대폰 번호
+						 				<span class="hidden">를 작성하세요</span>
+						 				</label>
+						 			</dt>
+						 			<dd>
+							 			<select name="firstNum" id="firstNum" class="num_box">
+							 				<option value="010">010</option>
+							 				<option value="011">011</option>
+							 				<option value="012">012</option>
+							 				<option value="013">013</option>
+							 				<option value="014">014</option>
+							 				<option value="016">016</option>
+							 				<option value="017">017</option>
+							 				<option value="018">018</option>
+							 				<option value="019">019</option>
+							 				<option value="0505">0505</option>
+							 			</select>
+							 			<span class="line"></span>
+						 			</dd>
+						 			<dd>
+						 				<input type="text" name="middleNum" id="middleNum" value="" class="num_box" maxlength="4">
+										<label for="middleNum" class="hidden">
+											휴대폰번호 가운데 셋 또는 네자리 번호를 입력하세요.
+										</label>
+						 				<span class="line"></span>
+						 			</dd>
+						 			<dd>
+						 				<input type="text" name="lastNum" id="lastNum" value="" class="num_box" maxlength="4">
+										<label for="lastNum" class="hidden">
+											휴대폰번호 마지막 네자리 번호를 입력하세요.
+										</label>
+						 			</dd>
 						 		</dl>
 						 		<dl>
 						 			<dt></dt>

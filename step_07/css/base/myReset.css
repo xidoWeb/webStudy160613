@@ -10,7 +10,7 @@ html, body{margin: 0; padding: 0; height: 100%;
 	 -webkit-text-size-adjust: 100%;}
 
 h1,h2,h3,h4,h5,h6,p,div,table,tr,td,th, ul, ol, li, dl, dt, dd,
-form, fieldset, legend
+form, fieldset, legend, input, select, textarea, blockque
 {margin: 0; padding: 0; font:inherit;}
 ul,ol,li{list-style: none;}
 a{text-decoration: none; color:#555;}
