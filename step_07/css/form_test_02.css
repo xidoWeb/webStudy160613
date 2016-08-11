@@ -1,0 +1,24 @@
+.container{width: 60rem; height: 100%; 
+	margin: 0 auto;}
+h1{width: 100%; height: 2rem; padding-bottom: 0.5rem; border-bottom:1px solid #3aa; text-align: center; line-height: 2; font-size: 1.3rem; font-weight: bold; margin-bottom: 2rem;}
+
+#certification{width: 28.75rem; min-height: 22.8125rem; height: auto; margin: 0 auto;}
+#certification > h2{width: 100%; height: 4.5rem; background-color:#fa6; font-size:1.375rem; color:#fff;
+	padding:1.75rem 2.375rem 1.5rem;	box-sizing:border-box;
+	font-weight: bold; line-height: 1;
+	background-image:-webkit-linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%);  
+	background-image:-moz-linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%); 
+	background-image:-ms-linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%); 
+	background-image:-o-linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%); 
+	background-image:linear-gradient(45deg, #f06 75%, #fe7fb2 75%, #ec6da0 100%); 
+
+}
+	.certifi_content{width: 100%; height:18.25rem; 
+		padding:1.125rem 2.875rem; 
+		box-sizing:border-box; background-color: #ccc;}
+	.certifi_content > h3{width: auto; height: auto; color:#333; font-size:1.125rem; margin-bottom:0.5rem;}
+	.certifi_content > p{color:#333; font-size: 1rem;
+		line-height:1.2;}
+
+	.certifi_content > form{}
+
