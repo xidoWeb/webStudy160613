@@ -1,0 +1,50 @@
+/* resp_basic.css */
+
+/*body{background-color:#f9a;}*/
+.container{width: 100%; height: 100%;}
+.container>*{transition:all 0.5s;}
+#headBox{width: 100%; height: 10rem; background-color:#1ff;}
+#addBanner{width: 100%; height: 15rem; background-color:#acc;}
+#content{width: 100%; height: 20rem; background-color:#ddd;}
+#footBox{width: 100%; height: 5rem; background-color:#777;}
+
+
+
+
+
+
+@media screen and (max-width:480px){
+	body{background-color:#a9a;}
+	#headBox{height: 100%; text-align: center; 
+		font-weight: bold; font-size: 2rem;}
+	#addBanner{display: none;}
+	#content{height: 200%; color:#fff; text-align: center; 
+		font-weight: bold; font-size: 2rem; 
+		box-sizing:border-box; padding-top: 2rem;
+		text-shadow:2px 2px 2px #333;}
+	#content:hover{background-color:#a97;}
+}/* (max-width:480px) */
+
+@media screen and (min-width:481px) and (max-width:640px){
+	body{background-color:#0af;}
+	#addBanner{width:50%; height:100%; float:left;}
+	#content{width:50%; height:100%; float: right;}
+	#footBox{clear:left; color:#fff; font-size: 2rem;}
+
+}/* (min-width:481px) and (max-width:640px) */
+
+@media screen and (min-width:641px) and (max-width:768px){
+	body{background-color:#714;}
+}/* (min-width:641px) and (max-width:768px) */
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+}/* (min-width:769px) and (max-width:1024px) */
+
+@media screen and (min-width:1025px) and (max-width:1280px){
+
+}/* (min-width:1025px) and (max-width:1280px) */
+
+@media screen and (min-width:1281px){
+
+}/* (min-width:1281px) */

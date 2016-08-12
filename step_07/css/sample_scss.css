@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*scss 기본세팅 */
+/* scss 주석 */
+#headBox {
+  background-color: #0af;
+}
+
+#headBox h1 {
+  background-color: #0af;
+  color: #777;
+  background-image: url("../img/test/acc/aa.jpg");
+}
+
+#headBox ul {
+  width: 100%;
+  height: auto;
+}
+
+#headBox ul > li {
+  border-bottom: 1px solid #777;
+}
+
+#headBox ul > li > a {
+  color: #fdfdfd;
+}
+
+#headBox ul > li > a:hover {
+  color: #4b4b4b;
+}
+
+#headBox ul:nth-child(2) {
+  color: #4b4b4b;
+}
+
+#article a {
+  color: #dddddd;
+}
+
+#footer a {
+  color: #777;
+}
+
+.tagbox a {
+  color: #777;
+}

@@ -1,0 +1,24 @@
+/* scss 주석 */
+// 단, css로 변환 x
+
+ 
+// #headBox{background-color:$primary;}
+// #headBox h1{background-color:$primary; color:$primary_font;}
+// #headBox ul>li{border-bottom:$font_line;}
+
+#headBox{background-color:$primary;
+	h1{background-color:$primary; color:$primary_font; 
+		background-image: url($file1 + "aa.jpg");}
+	ul{width: 100%; height: auto; 
+		>li{border-bottom:$font_line;
+		 >a{color:$white;
+			 &:hover{color:darken($white, 70%);}
+			}//a
+		}//li
+		 &:nth-child(2){color:darken($white, 70%);}
+	}// ul
+}// #headBox
+
+#article a{color:lighten($primary_font, 40%);}
+#footer a{color:$primary_font;}
+.tagbox a{color:$primary_font;}
